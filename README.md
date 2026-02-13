@@ -1,49 +1,57 @@
 # Vedant Puri
 PhD @ CMU | Efficient transformer architectures | Scientific ML | Triton-based attention implementations
 
-## Featured Work
+I design scalable transformer architectures grounded in numerical methods.
+My recent work introduces FLARE, a unified low-rank attention mechanism that scales to million-token problems on a single GPU.
+My background spans high performance computing, partial differential equation solvers, and scientific machine learning.
 
-### FLARE - Fast Low-Rank Attention Routing Engine
-- Unified low-rank reformulation of self-attention
-- O(NM) memory scaling
-- Scales to 1M tokens on a single GPU
-- Benchmarked on PDE, NLP, and vision tasks
+Links: [Website](https://vpuri3.github.io/) | [LinkedIn](https://www.linkedin.com/in/vpuri3/) | [Google Scholar](https://scholar.google.com/citations?user=2N-Q4YkAAAAJ)
 
-[Paper](https://huggingface.co/papers/2508.12594) | [Code](https://github.com/vpuri3/FLARE.py) | [arXiv](http://arxiv.org/abs/2508.12594)
+## Open-Source Projects
 
-### SNF-ROM
-Projection-based nonlinear reduced-order modeling with smooth neural fields for advection-dominated PDEs.
+Below is a dense list of my open-source work (owned repos + active fork/work branches).
+These lists are intentionally selective and not exhaustive.
+Inclusion here means meaningful contribution or ownership, not necessarily sole maintainership.
 
-[Journal of Computational Physics paper](https://arxiv.org/abs/2405.14890) | [Code](https://github.com/vpuri3/NeuralROMs.jl)
+- [**FLARE.py**](https://github.com/vpuri3/FLARE.py): Fast Low-rank Attention Routing Engine; unified low-rank self-attention with O(NM) memory scaling.
+- [**NeuralROMs.jl**](https://github.com/vpuri3/NeuralROMs.jl): SNF-ROM implementation for projection-based nonlinear reduced-order modeling with smooth neural fields.
+- [**KolmogorovArnold.jl**](https://github.com/vpuri3/KolmogorovArnold.jl): Julia implementation of Kolmogorov-Arnold networks with custom gradients.
+- [**SpectralElements.jl**](https://github.com/vpuri3/SpectralElements.jl): Julia spectral element method solvers and numerical experiments.
+- [**NekTools**](https://github.com/vpuri3/NekTools): Fortran 77 turbulence-budget and post-processing tools for NEK5000.
+- [**mlutils.py**](https://github.com/vpuri3/mlutils.py): Lightweight PyTorch project template and training utilities.
+- [**PFHubBenchmarks**](https://github.com/vpuri3/PFHubBenchmarks): Phase-field simulation benchmarks implemented with FEniCS.
+- [SciMLOperators.jl](https://github.com/vpuri3/SciMLOperators.jl): Operator abstractions for SciML/PDE workflows and matrix-free formulations.
+- [LinearSolve.jl](https://github.com/vpuri3/LinearSolve.jl): Unified interface for direct and iterative linear solvers in the SciML stack.
+- [OrdinaryDiffEq.jl](https://github.com/vpuri3/OrdinaryDiffEq.jl): High-performance ODE solvers, including neural ODE workloads.
+- [NonlinearSolve.jl](https://github.com/vpuri3/NonlinearSolve.jl): High-performance, differentiation-enabled nonlinear system solvers.
+- [Optimization.jl](https://github.com/vpuri3/Optimization.jl): Unified optimization interface across local/global and gradient/derivative-free methods.
+- [SciMLBase.jl](https://github.com/vpuri3/SciMLBase.jl): Base interfaces and shared problem abstractions for the SciML ecosystem.
+- [SciMLSensitivity.jl](https://github.com/vpuri3/SciMLSensitivity.jl): Sensitivity analysis and adjoint methods for differential equation models.
+- [DiffEqFlux.jl](https://github.com/vpuri3/DiffEqFlux.jl): Neural differential equation tooling and SciML model training.
+- [DiffEqBase.jl](https://github.com/vpuri3/DiffEqBase.jl): Lightweight shared types/functionality for differential equation and SciML problems.
+- [Flux.jl](https://github.com/vpuri3/Flux.jl): Julia machine learning framework.
+- [Lux.jl](https://github.com/vpuri3/Lux.jl): Explicitly parameterized neural networks in Julia.
+- [Reactant.jl](https://github.com/vpuri3/Reactant.jl): Compiled Julia ML execution/runtime tooling in the Lux ecosystem.
+- [CUDA.jl](https://github.com/vpuri3/CUDA.jl): CUDA programming and GPU kernels in Julia.
+- [ForwardDiff.jl](https://github.com/vpuri3/ForwardDiff.jl): Forward-mode automatic differentiation in Julia.
+- [GPUArrays.jl](https://github.com/vpuri3/GPUArrays.jl): Common array abstractions shared across Julia GPU backends.
+- [Zygote.jl](https://github.com/vpuri3/Zygote.jl): Source-to-source reverse-mode automatic differentiation for Julia.
 
-## Research Themes
-- Efficient attention and low-rank transformers
-- Neural operators and PDE surrogates
-- Numerical methods for ML architectures
-- Scientific computing at scale
+## Research Artifacts
 
-## Open Source
+- **FLARE**: [HF](https://huggingface.co/papers/2508.12594) | [arXiv](http://arxiv.org/abs/2508.12594) | [code](https://github.com/vpuri3/FLARE.py)
+- **SNF-ROM**: [JCP / arXiv](https://arxiv.org/abs/2405.14890) | [code](https://github.com/vpuri3/NeuralROMs.jl)
 
-### FLARE
-[FLARE.py](https://github.com/vpuri3/FLARE.py): Fast Low-rank Attention Routing Engine for scalable transformer attention.
+## Older / Domain-Specific Work
 
-### Julia Open Source Tools
-- [SciMLOperators.jl](https://github.com/vpuri3/SciMLOperators.jl): operator abstractions for SciML and PDE workflows
-- [LinearSolve.jl](https://github.com/vpuri3/LinearSolve.jl): linear solver interface for scientific machine learning
+- [spec](https://github.com/vpuri3/spec): MATLAB spectral element code.
+- [wavyWallDNS](https://github.com/vpuri3/wavyWallDNS): DNS results for turbulent flow over wavy walls.
+- [wallMountedCube](https://github.com/vpuri3/wallMountedCube): CFD simulation setup for flow over a wall-mounted cube.
 
-Also worked on Julia ecosystem repositories including [OrdinaryDiffEq.jl](https://github.com/vpuri3/OrdinaryDiffEq.jl), [NonlinearSolve.jl](https://github.com/vpuri3/NonlinearSolve.jl), [Optimization.jl](https://github.com/vpuri3/Optimization.jl), [SciMLBase.jl](https://github.com/vpuri3/SciMLBase.jl), [SciMLSensitivity.jl](https://github.com/vpuri3/SciMLSensitivity.jl), [DiffEqFlux.jl](https://github.com/vpuri3/DiffEqFlux.jl), [StochasticDiffEq.jl](https://github.com/vpuri3/StochasticDiffEq.jl), and [DiffEqBase.jl](https://github.com/vpuri3/DiffEqBase.jl).
+## Long-Form Notes
 
-### KolmogorovArnold.jl
-[KolmogorovArnold.jl](https://github.com/vpuri3/KolmogorovArnold.jl): KAN implementation in Julia with custom gradients.
+- [Work Archive](https://vpuri3.github.io/work/)
+- [Thoughts Archive](https://vpuri3.github.io/thoughts/)
 
-### NekTools
-[NekTools](https://github.com/vpuri3/NekTools): FORTRAN 77 post-processing toolkit for NEK5000 turbulence simulations.
-
-## Blog
-Background notes and long-form writing:
-- [Website work archive](https://vpuri3.github.io/work/)
-- [Website thoughts archive](https://vpuri3.github.io/thoughts/)
-
-Planned post: **How to scale attention to 1M tokens on a single GPU**.
-
-_Last updated: February 13, 2026._
+---
+Public profile snapshot used for this summary: **82 repos total** (**22 original**, **60 forks**) as of **February 13, 2026**.
