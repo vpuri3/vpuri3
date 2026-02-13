@@ -1,9 +1,10 @@
 # Vedant Puri
 PhD @ CMU | Efficient transformer architectures | Scientific ML | Triton-based attention implementations
 
-I design scalable transformer architectures grounded in numerical methods.
-My recent work introduces FLARE, a unified low-rank attention mechanism that scales to million-token problems on a single GPU.
-My background spans high performance computing, partial differential equation solvers, and scientific machine learning.
+Transformer architecture research focused on scaling, memory, and communication structure.
+Author of FLARE: attention scaling to million-token regimes on a single GPU.
+Implements architectures in PyTorch and Triton.
+Background in high performance computing, numerical analysis, and computational fluid dynamics.
 
 Links: [Website](https://vpuri3.github.io/) | [LinkedIn](https://www.linkedin.com/in/vpuri3/) | [Google Scholar](https://scholar.google.com/citations?user=2N-Q4YkAAAAJ)
 
