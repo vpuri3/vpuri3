@@ -45,3 +45,5 @@ Background notes and long-form writing:
 - [Website thoughts archive](https://vpuri3.github.io/thoughts/)
 
 Planned post: **How to scale attention to 1M tokens on a single GPU**.
+
+_Last updated: February 13, 2026._
