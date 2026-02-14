@@ -15,6 +15,7 @@ These lists are intentionally selective and not exhaustive.
 Inclusion here means meaningful contribution or ownership, not necessarily sole maintainership.
 
 - [**FLARE.py**](https://github.com/vpuri3/FLARE.py): Fast Low-rank Attention Routing Engine; unified low-rank self-attention with O(NM) memory scaling.
+- [**FastDiffusion.py**](https://github.com/vpuri3/FastDiffusion.py): Low latency diffusion models building upon trig flow/consistency model literature.
 - [**NeuralROMs.jl**](https://github.com/vpuri3/NeuralROMs.jl): SNF-ROM implementation for projection-based nonlinear reduced-order modeling with smooth neural fields.
 - [**KolmogorovArnold.jl**](https://github.com/vpuri3/KolmogorovArnold.jl): Julia implementation of Kolmogorov-Arnold networks with custom gradients.
 - [**SpectralElements.jl**](https://github.com/vpuri3/SpectralElements.jl): Julia spectral element method solvers and numerical experiments.
