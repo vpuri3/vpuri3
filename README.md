@@ -1,5 +1,5 @@
 # Vedant Puri
-PhD @ CMU | Efficient transformer architectures | Scientific ML | Triton-based attention implementations
+PhD @ CMU | Efficient transformer architectures | Scientific ML
 
 Transformer architecture research focused on scaling, memory, and communication structure.
 Author of FLARE: attention scaling to million-token regimes on a single GPU.
